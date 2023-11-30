@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:desafio_dart/desafio_dart.dart' as desafio_dart;
 
 void main(List<String> arguments) {
-  var number;
+  dynamic number;
 
   print("Digite um número inteiro positivo:");
   number = stdin.readLineSync(encoding: utf8);
